@@ -2,8 +2,8 @@
  * 
  */
 package server;
-import interface_.MeetingInterface;
-import interface_.UserInterface;
+import rface.MeetingInterface;
+import rface.UserInterface;
 
 import java.net.MalformedURLException;
 import java.rmi.Naming;
@@ -11,7 +11,7 @@ import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 /**
  * Ô¶³Ì·þÎñÆ÷
- * @author ZhangHan
+ * @author macforsong
  *
  */
 public class Server {

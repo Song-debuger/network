@@ -8,7 +8,7 @@ import java.util.Date;
 import java.util.List;
 /**
  * MEET CLASS
- * @author ZhangHan
+ * @author macforsong
  *
  */
 public class Meeting implements Serializable{
@@ -18,11 +18,13 @@ public class Meeting implements Serializable{
 	private Date endTime;//结束时间
 	private String title;//标题
 	private ArrayList<User> participants=new ArrayList<User>();//参与者
+
 	/**
 	 * 无参构造函数
 	 */
 	public Meeting(){
 	}
+
 	/**
 	 * 有参构造函数
 	 * @param meetingId 会议的ID

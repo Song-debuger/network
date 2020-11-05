@@ -1,7 +1,7 @@
 /**
  * 
  */
-package interface_;
+package rface;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.util.ArrayList;
@@ -12,7 +12,7 @@ import bean.User;
 
 /**
  * 操作会议的接口
- * @author ZhangHan
+ * @author macforsong
  *
  */
 public interface MeetingInterface extends Remote {

@@ -1,7 +1,7 @@
 
 package client;
-import interface_.MeetingInterface;
-import interface_.UserInterface;
+import rface.MeetingInterface;
+import rface.UserInterface;
 
 import java.net.MalformedURLException;
 import java.rmi.Naming;
@@ -18,7 +18,7 @@ import bean.User;
 
 /**
  * 远程客户端
- * @author ZhangHan
+ * @author macforsong
  *
  */
 public class Client {
@@ -28,7 +28,7 @@ public class Client {
 	static User user;// 用户
 	static MeetingInterface meetingInterface;// 操作会议的接口
 	static UserInterface userInterface;// 操作用户的接口
-	static SimpleDateFormat format = new SimpleDateFormat("M-d-k:m");// 格式化日期
+	static SimpleDateFormat format = new SimpleDateFormat("yyyy-mm-dd-hh:mm");// 格式化日期
 
 	public static void main(String[] args) throws RemoteException,
 			MalformedURLException, NotBoundException, ParseException {
@@ -44,16 +44,18 @@ public class Client {
 		String password;// 密码
 		Scanner in = new Scanner(System.in);
 		while (true) {
-			System.out.println("输入用户名");
+			System.out.println("输入用户名:");
 			name = in.nextLine();
-			System.out.println("输入密码");
+//			name = args[1];
+			System.out.println("输入密码:");
 			password = in.nextLine();
+//			password = args[2];
 			user = new User(name, password);// 创建用户
 			boolean success = userInterface.addUser(user);// 添加用户
 			if (success) {// 添加成功
 				break;// 退出循环
 			} else {// 添加失败（当用户名重复时出错）
-				System.err.println("重名错误");
+				System.err.println("用户名已存在");
 			}
 		}
 		/**
@@ -229,7 +231,7 @@ public class Client {
 		System.out.println("RMI Menu:");
 		System.out.println("    1.add");
 		System.out
-				.println("        arguments: <username> <start> <end> <title>例如，12月23日16:00表示为12-23-16:00");
+				.println("        arguments: <username> <start> <end> <title>例如，2020年12月23日16:00表示为2020-12-23-16:00");
 		System.out.println("    2.delete");
 		System.out.println("        arguments: meetingid");
 		System.out.println("    3.clear");

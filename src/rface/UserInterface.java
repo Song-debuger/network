@@ -1,7 +1,7 @@
 /**
  * 
  */
-package interface_;
+package rface;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.util.ArrayList;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import bean.User;
 /**
  * 操作用户的接口
- * @author ZhangHan
+ * @author macforsong
  *
  */
 public interface UserInterface extends Remote{

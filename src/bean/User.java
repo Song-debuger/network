@@ -6,7 +6,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 /**
  * USER CLASS
- * @author ZhangHan
+ * @author macforsong
  *
  */
 public class User implements Serializable{

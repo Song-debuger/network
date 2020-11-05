@@ -7,10 +7,10 @@ import java.rmi.server.UnicastRemoteObject;
 import java.util.ArrayList;
 
 import bean.User;
-import interface_.UserInterface;
+import rface.UserInterface;
 /**
  * UserInterface的实现类
- * @author ZhangHan
+ * @author macforsong
  *
  */
 public class UserImplement extends UnicastRemoteObject implements UserInterface{

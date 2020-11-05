@@ -2,7 +2,7 @@
  * 
  */
 package server;
-import interface_.MeetingInterface;
+import rface.MeetingInterface;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
@@ -14,7 +14,7 @@ import bean.User;
 
 /**
  * MeetingInterface的实现类
- * @author ZhangHan
+ * @author macforsong
  *
  */
 public class MeetingImplement extends UnicastRemoteObject implements
