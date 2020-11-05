@@ -1,37 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="9ffcd828-aab9-4712-b7d0-c3d94938e6c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab3_RMI/bean/Meeting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3_RMI/bean/Meeting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3_RMI/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3_RMI/bean/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab3_RMI/client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3_RMI/client/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3_RMI/interface_/MeetingInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3_RMI/interface_/UserInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3_RMI/server/MeetingImplement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3_RMI/server/MeetingImplement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3_RMI/server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3_RMI/server/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3_RMI/server/UserImplement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3_RMI/server/UserImplement.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bean/Meeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/Meeting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface_/MeetingInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rface/MeetingInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface_/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rface/UserInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server/MeetingImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/MeetingImplement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server/UserImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/UserImplement.java" afterDir="false" />
@@ -66,7 +45,7 @@
     <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="client.Client" />
       <module name="lab3_RMI" />
-      <option name="PROGRAM_PARAMETERS" value="zhanghan zhanghan" />
+      <option name="PROGRAM_PARAMETERS" value="hansong hansong" />
       <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
       <extension name="coverage">
         <pattern>
@@ -131,7 +110,7 @@
       <workItem from="1604038622637" duration="439000" />
       <workItem from="1604042547984" duration="172000" />
       <workItem from="1604205176252" duration="3002000" />
-      <workItem from="1604538112408" duration="9726000" />
+      <workItem from="1604538112408" duration="6728000" />
     </task>
     <task id="LOCAL-00001" summary="网络实验3">
       <created>1604376611966</created>
@@ -140,67 +119,48 @@
       <option name="project" value="LOCAL" />
       <updated>1604376611966</updated>
     </task>
-    <task id="LOCAL-00002" summary="javadoc">
-      <created>1604589934802</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1604589934802</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="网络实验3" />
-    <MESSAGE value="javadoc" />
-    <option name="LAST_COMMIT_MESSAGE" value="javadoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="网络实验3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="151" y="34" key="#Project_Structure" timestamp="1604025326307">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="151" y="34" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1604025326307" />
-    <state x="183" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604592581472">
+    <state x="183" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604589626354">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="183" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1604592581472" />
-    <state x="303" y="21" key="CommitChangelistDialog2" timestamp="1604589934530">
+    <state x="183" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1604589626354" />
+    <state x="303" y="21" key="CommitChangelistDialog2" timestamp="1604376611781">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="21" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1604589934530" />
-    <state width="1396" height="214" key="GridCell.Tab.0.bottom" timestamp="1604592584092">
+    <state x="303" y="21" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1604376611781" />
+    <state width="1396" height="147" key="GridCell.Tab.0.bottom" timestamp="1604589835445">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="214" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604592584092" />
+    <state width="1396" height="147" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604589835445" />
     <state width="1876" height="339" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1604396225424" />
-    <state width="1396" height="214" key="GridCell.Tab.0.center" timestamp="1604592584090">
+    <state width="1396" height="147" key="GridCell.Tab.0.center" timestamp="1604589835442">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="214" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604592584090" />
+    <state width="1396" height="147" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604589835442" />
     <state width="1876" height="339" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1604396225421" />
-    <state width="1396" height="214" key="GridCell.Tab.0.left" timestamp="1604592584089">
+    <state width="1396" height="147" key="GridCell.Tab.0.left" timestamp="1604589835441">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="214" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604592584089" />
+    <state width="1396" height="147" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604589835441" />
     <state width="1876" height="339" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1604396225419" />
-    <state width="1396" height="214" key="GridCell.Tab.0.right" timestamp="1604592584091">
+    <state width="1396" height="147" key="GridCell.Tab.0.right" timestamp="1604589835444">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="214" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604592584091" />
+    <state width="1396" height="147" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604589835444" />
     <state width="1876" height="339" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1604396225422" />
     <state x="248" y="51" key="SettingsEditor" timestamp="1604028262928">
       <screen x="0" y="0" width="1440" height="900" />
@@ -214,9 +174,5 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="520" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1604589789897" />
-    <state x="420" y="205" width="599" height="490" key="find.popup" timestamp="1604590364828">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="420" y="205" width="599" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1604590364828" />
   </component>
 </project>
