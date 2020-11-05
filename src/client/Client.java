@@ -45,14 +45,15 @@ public class Client {
         String password;// 密码
         Scanner in = new Scanner(System.in);
         while (true) {
-            name = args[1];
-            password = args[2];
+            name = args[0];
+            password = args[1];
             user = new User(name, password);// 创建用户
             boolean success = userInterface.addUser(user);// 添加用户
             if (success) {// 添加成功
                 break;// 退出循环
             } else {// 添加失败（当用户名重复时出错）
                 System.err.println("用户名已存在");
+                return;
             }
         }
         /**
@@ -208,7 +209,7 @@ public class Client {
                 }
                 meetingList = meetingInterface.queryByTime(start, end);// 调用远程方法
                 if (meetingList == null) {
-                    System.out.println("查询为空");
+                    System.out.println("该时间段内没有会议");
                 } else {// 按时间顺序，打印会议信息
                     for (Meeting i : meetingList) {
                         System.out.println(i.toString());
